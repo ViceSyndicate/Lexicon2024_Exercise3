@@ -8,10 +8,11 @@ namespace Lexicon2024_Exercise3._3.Animals
 {
     internal class Horse : Animal
     {
-        public Horse(string name, int weightInKg, int age) : base(name, weightInKg, age)
+        int sellPrice;
+        public Horse(string name, int weightInKg, int age, int value) : base(name, weightInKg, age)
         {
+            this.sellPrice = value;
         }
-
         internal override void DoSound()
         {
             Console.WriteLine("Neigh");

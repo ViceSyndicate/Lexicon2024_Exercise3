@@ -8,5 +8,14 @@ namespace Lexicon2024_Exercise3._3.Animals
 {
     internal class Wolf : Animal
     {
+        public bool IsFeral { get; set; }
+        public Wolf(string name, int weightInKg, int age, bool isFeral) : base(name, weightInKg, age)
+        {
+            this.IsFeral = isFeral;
+        }
+        internal override void DoSound()
+        {
+            Console.WriteLine("Awooooo!");
+        }
     }
 }

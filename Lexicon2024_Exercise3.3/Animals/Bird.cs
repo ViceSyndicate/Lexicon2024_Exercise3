@@ -8,5 +8,13 @@ namespace Lexicon2024_Exercise3._3.Animals
 {
     internal class Bird : Animal
     {
+        public double WingSpan { get; set; }
+        public Bird(string name, int weightInKg, int age, double wingSpan) : base(name, weightInKg, age) { 
+            this.WingSpan = wingSpan;
+        }
+        internal override void DoSound()
+        {
+            Console.WriteLine("Chirp!");
+        }
     }
 }
