@@ -17,5 +17,9 @@ namespace Lexicon2024_Exercise3._3.Animals
         {
             Console.WriteLine("Awooooo!");
         }
+        public override string Stats()
+        {
+            return $"Name: {Name}, Weight: {WeightInKg}, Age: {Age}, IsFeral: {IsFeral}";
+        }
     }
 }

@@ -8,14 +8,22 @@ namespace Lexicon2024_Exercise3._3.Animals
 {
     internal class Dog : Animal
     {
-        string size;
-        Dog(string size, string name, int weight, int age) : base(name, weight, age)
+        public string Size { get; set; }
+        public Dog(string name, int weight, int age, string size) : base(name, weight, age)
         {
-            this.size = size;
+            this.Size = size;
         }
         internal override void DoSound()
         {
             Console.WriteLine("Woff!");
+        }
+        public override string Stats()
+        {
+            return $"Name: {Name}, Weight: {WeightInKg}, Age: {Age}, Size: {Size}";
+        }
+        public string Growl()
+        {
+            return "Grrrr";
         }
     }
 }

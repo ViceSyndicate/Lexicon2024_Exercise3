@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lexicon2024_Exercise3._3
 {
-    abstract  class Animal
+    abstract class Animal
     {
         protected Animal(string name, int weightInKg, int age)
         {
@@ -14,7 +14,10 @@ namespace Lexicon2024_Exercise3._3
             WeightInKg = weightInKg;
             Age = age;
         }
-
+        public virtual string Stats()
+        {
+            return $"Name: {Name}, Weight: {WeightInKg}, Age: {Age}";
+        }
         public string Name { get; set; }
         public int WeightInKg { get; set; }
         public int Age { get; set; }

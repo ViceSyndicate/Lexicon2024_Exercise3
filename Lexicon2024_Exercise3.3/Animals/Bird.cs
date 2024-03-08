@@ -16,5 +16,9 @@ namespace Lexicon2024_Exercise3._3.Animals
         {
             Console.WriteLine("Chirp!");
         }
+        public override string Stats()
+        {
+            return $"Name: {Name}, Weight: {WeightInKg}, Age: {Age}, Wingspan: {WingSpan}";
+        }
     }
 }

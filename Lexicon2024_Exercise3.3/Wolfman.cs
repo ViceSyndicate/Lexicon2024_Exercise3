@@ -1,6 +1,7 @@
 ﻿using Lexicon2024_Exercise3._3.Animals;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,7 +16,11 @@ namespace Lexicon2024_Exercise3._3
         }
         string IPerson.Talk()
         {
-            return "Bork?";
+            return "Bork? I'm a wolfman?";
+        }
+        public override string Stats()
+        {
+            return $"Name: {Name}, Weight: {WeightInKg}, Age: {Age}, IsFeral: {IsFeral}";
         }
     }
 }
