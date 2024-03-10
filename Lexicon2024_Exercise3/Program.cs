@@ -9,6 +9,10 @@
             
             PersonHandler personHandler = new PersonHandler();
 
+            Person unborn = personHandler.CreatePerson(-1, "Bobby", "Baby", 2, 4);
+            Console.WriteLine(personHandler.ToString(unborn));
+            Console.WriteLine("-----------------------------");
+
             Person person2 = personHandler.CreatePerson(2, "John", "Doe", 200, 90);
             Console.WriteLine(personHandler.ToString(person2));
             Console.WriteLine("-----------------------------");

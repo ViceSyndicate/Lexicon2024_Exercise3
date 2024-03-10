@@ -3,13 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34622.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lexicon2024_Exercise3.1", "Lexicon2024_Exercise3\Lexicon2024_Exercise3.1.csproj", "{CA6C30E5-317E-40BF-BF97-5845FAEEAF54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lexicon2024_Exercise3.1", "Lexicon2024_Exercise3\Lexicon2024_Exercise3.1.csproj", "{CA6C30E5-317E-40BF-BF97-5845FAEEAF54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lexicon2024_Exercise3.2", "Lexicon2024_Exercise3.2\Lexicon2024_Exercise3.2.csproj", "{DE02637A-D6BD-4BBF-9040-70B241F05ED0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lexicon2024_Exercise3.2", "Lexicon2024_Exercise3.2\Lexicon2024_Exercise3.2.csproj", "{DE02637A-D6BD-4BBF-9040-70B241F05ED0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lexicon2024_Exercise3.3", "Lexicon2024_Exercise3.3\Lexicon2024_Exercise3.3.csproj", "{17A5869B-DB1A-42A8-B48B-384508567836}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lexicon2024_Exercise3.4", "Lexicon2024_Exercise3.4\Lexicon2024_Exercise3.4.csproj", "{FC2E4419-D3E4-4F57-8506-B84EF7CB4F9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lexicon2024_Exercise3.3", "Lexicon2024_Exercise3.3\Lexicon2024_Exercise3.3.csproj", "{17A5869B-DB1A-42A8-B48B-384508567836}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +27,6 @@ Global
 		{17A5869B-DB1A-42A8-B48B-384508567836}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17A5869B-DB1A-42A8-B48B-384508567836}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17A5869B-DB1A-42A8-B48B-384508567836}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FC2E4419-D3E4-4F57-8506-B84EF7CB4F9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC2E4419-D3E4-4F57-8506-B84EF7CB4F9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC2E4419-D3E4-4F57-8506-B84EF7CB4F9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC2E4419-D3E4-4F57-8506-B84EF7CB4F9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

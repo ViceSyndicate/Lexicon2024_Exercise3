@@ -12,12 +12,11 @@ namespace Lexicon2024_Exercise3
     {
         public void SetAge(Person pers, int age)
         {
-            /*
-            if (Age <= 0)
+            
+            if (age <= 0)
             {
-                throw new ArgumentOutOfRangeException(nameof(Age), "Age must be positive.");
+                throw new ArgumentOutOfRangeException(nameof(age), "Age must be a positive number.");
             }
-            */
             try
             {
                 pers.Age = Convert.ToUInt32(age);
