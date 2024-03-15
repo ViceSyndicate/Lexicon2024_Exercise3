@@ -57,8 +57,8 @@ namespace Lexicon2024_Exercise3
                 if (value.Length < 2 || value.Length > 10)
                 {
                     //Console.WriteLine("First Name has to be 3-10 Characters.");
-                    ArgumentException e = new ArgumentException("First Name has to be 3-10 Characters.");
-                    Console.WriteLine(e);
+                    //ArgumentException e = new ArgumentException("First Name has to be 3-10 Characters.");
+                    throw new ArgumentException("First Name has to be 3-10 Characters.");
                 }
                 else
                 {
@@ -74,8 +74,7 @@ namespace Lexicon2024_Exercise3
                 if (value.Length < 3 || value.Length > 15)
                 {
                     //Console.WriteLine("Last Name has to be 3-15 Characters.");
-                    ArgumentException e = new ArgumentException("Last Name has to be 3-15 Characters.");
-                    Console.WriteLine(e);
+                    throw new ArgumentException("Last Name has to be 3-15 Characters.");
                 }
                 else
                 {
