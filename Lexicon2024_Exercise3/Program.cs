@@ -37,7 +37,7 @@
                 personHandler.SetWeight(person4, 111.1);
                 personHandler.SetHeight(person4, 155.3);
                 Console.WriteLine(personHandler.ToString(person4));
-            } catch (Exception ex) { Console.WriteLine(ex); }
+            } catch (ArgumentException ex) { Console.WriteLine(ex); }
 
             Console.WriteLine("-----------------------------");
 
